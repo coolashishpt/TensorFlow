@@ -51,11 +51,11 @@ labels = np.array(label)
 print(labels.shape)
 
 
-index = 1253
+# index = 1253
 
-print(classes[np.argmax(labels[index])])
-plt.imshow(images__[index])
-plt.show()
+# print(classes[np.argmax(labels[index])])
+# plt.imshow(images__[index])
+# plt.show()
 
 from random import sample
 def train_test_creation(x, data, toPred): 
