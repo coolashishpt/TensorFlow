@@ -4,7 +4,7 @@ Working...
 
 Hello World with Tensorflow..
 
-cons = tf.constant("Hello World!")
+cons = tf.constant("Hello World!")/n
 sess = tf.Session()
 print(sess.run(cons))
 
