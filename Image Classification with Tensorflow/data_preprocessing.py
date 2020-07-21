@@ -14,6 +14,7 @@ print(classes)
 from PIL import Image
 import numpy as np
 
+# Loading Images from directory and storing in list
 image_count = list()
 images__ = list()
 for images in classes:
@@ -35,10 +36,12 @@ print(feature.shape)
 # Performing one hot encoding
 from keras.utils import to_categorical
 
+
 classes_to_int = list()
 for i in range(len(classes)):
     classes_to_int.append(i)
 
+# Changing classes in one hot encoding
 one_hot_encoding = to_categorical(classes_to_int)
 print(one_hot_encoding)
 
