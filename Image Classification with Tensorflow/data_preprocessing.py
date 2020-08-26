@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import os
 from utils1 import *
 
+#Training Image path
 path = "natural_images\Training"
 classes = os.listdir(path)
 print(classes)
